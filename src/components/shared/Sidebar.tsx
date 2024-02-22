@@ -13,7 +13,8 @@ const Sidebar = () => {
         <aside className="sidebar">
             <div className="flex size-full flex-col gap-4">
                 <Link href="/" className="sidebar-logo">
-                    <Image src="/assets/images/logo-text.svg" alt="logo" width={180} height={28} />
+                    <Image src="/assets/images/logo.png" alt="logo" width={50} height={40} />
+                    <h1 className="h2-extrabold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">PixBlendr</h1>
                 </Link>
 
                 <nav className="sidebar-nav">

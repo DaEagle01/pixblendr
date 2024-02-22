@@ -115,6 +115,10 @@
     @apply text-[36px] font-semibold sm:text-[44px] leading-[120%] sm:leading-[56px];
   }
 
+  .h2-extrabold {
+    @apply text-[26px] font-extrabold sm:text-[40px] leading-[120%] sm:leading-[56px];
+  }
+
   /* 36 */
   .h2-bold {
     @apply text-[30px] font-bold md:text-[36px] leading-[110%];

@@ -14,12 +14,8 @@ const MobileNav = () => {
     return (
         <header className="header">
             <Link href="/" className="flex items-center gap-2 md:py-2">
-                <Image
-                    src="/assets/images/logo-text.svg"
-                    alt="logo"
-                    width={180}
-                    height={28}
-                />
+                <Image src="/assets/images/logo.png" alt="logo" width={50} height={40} />
+                <h1 className="h2-extrabold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">PixBlendr</h1>
             </Link>
 
             <nav className="flex gap-2">
@@ -38,13 +34,10 @@ const MobileNav = () => {
                         </SheetTrigger>
                         <SheetContent className="sheet-content sm:w-64">
                             <>
-                                <Image
-                                    src="/assets/images/logo-text.svg"
-                                    alt="logo"
-                                    width={152}
-                                    height={23}
-                                />
-
+                                <Link href="/" className="flex items-center gap-2 md:py-2">
+                                    <Image src="/assets/images/logo.png" alt="logo" width={40} height={30} />
+                                    <h1 className="h2-extrabold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">PixBlendr</h1>
+                                </Link>
                                 <ul className="header-nav_elements">
                                     {navLinks.map((link) => {
                                         const isActive = link.route === pathname
