@@ -1,39 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
 
-## Getting Started
+PixBlendr is a web application that lets you transform your images with the power of AI. Whether you want to restore, recolor, fill, remove, or extract objects from your images, PixBlendr can help you achieve stunning results in minutes. You can also explore and search for images from other users, and view the details of each transformation. PixBlendr uses a credits system to enable you to access its features, which you can purchase securely via Stripe.
 
-First, run the development server:
+PixBlendr also provides a responsive and user-friendly interface that works across devices. PixBlendr is the ultimate tool for image enthusiasts who want to unleash their creativity and enhance their images with AI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔐 **Authentication and Authorization**: Ensure secure user access through a robust system featuring registration, login, and route protection.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📷 **Community Image Showcase**: Dive into a visual feast of user transformations with easy navigation facilitated by pagination.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🔍 **Advanced Image Search**: Quickly and accurately find images based on content or objects present within the image.
 
-## Learn More
+🔄 **Image Restoration**: Effortlessly revive old or damaged images to their former glory.
 
-To learn more about Next.js, take a look at the following resources:
+🎨 **Image Recoloring**: Customize images by easily replacing objects with desired colors, adding a personal touch to your visuals.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🌈 **Image Generative Fill**: Seamlessly fill in missing areas of images, providing a flawless and complete look.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🚫 **Object Removal**: Achieve precision in image clean-up by easily removing unwanted objects.
 
-## Deploy on Vercel
+🌄 **Background Removal**: Extract objects from backgrounds with ease, allowing for versatile use of images.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📥 **Download Transformed Images**: Conveniently save and share AI-transformed images to showcase your creativity.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# pixblendr
-# pixblendr
-# pixblendr
+🔍 **Transformed Image Details**: Gain insights into the specifics of each image transformation, adding depth to your creative process.
+
+🔧 **Transformation Management**: Take control with the ability to delete and update transformations according to your preferences.
+
+💳 **Credits System**: Earn or purchase credits to facilitate your image transformations seamlessly.
+
+👤 **Profile Page**: Personalized access to transformed images and credit information, providing a snapshot of your creative journey.
+
+💸 **Credits Purchase**: Securely buy credits via Stripe for uninterrupted use, ensuring a smooth and continuous experience.
+
+📱 **Responsive UI/UX**: Enjoy a seamless experience across devices, featuring a user-friendly interface that adapts to your needs.
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- MongoDB
+- Clerk
+- Cloudinary AI
+- Stripe
+- Shadcn UI
+- TailwindCSS
